@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="76.124" errors="2" skipped="0" tests="23" name="slyde.automation.cucumber.RunnerTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.65-b04-462"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4609"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="browserType" value="Firefox"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/srikanthvejendla/Documents/workspace/WebConsumerAutomation"/>
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/rb/z8c1404x10166_rb8kxvwq2c0000gp/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="qaEnvironment" value="Dev02"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.2.2/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/srikanthvejendla"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="srikanthvejendla"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.2.2/libexec/boot/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean compile test -DbrowserType=Firefox -DqaEnvironment=Dev02"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_65"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.2.2/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_65-462"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.001" classname="Scenario: TC01 Login with valid credentials" name="Given I am on Slyde Consumer Website"/>
+  <testcase time="0" classname="Scenario: TC01 Login with valid credentials" name="When I enter valid \&quot;username\&quot; and \&quot;password\&quot;"/>
+  <testcase time="0" classname="Scenario: TC01 Login with valid credentials" name="Then I should be logged in successfully"/>
+  <testcase time="0" classname="Scenario: TC01 Login with valid credentials" name="And Greeted with welcome message"/>
+  <testcase time="3.205" classname="Scenario: TC01 Login with valid credentials" name="Scenario: TC01 Login with valid credentials"/>
+  <testcase time="0" classname="Scenario: TC02 Check Forgot password? link" name="Given I am on Slyde Consumer Website"/>
+  <testcase time="0" classname="Scenario: TC02 Check Forgot password? link" name="Then I should see \&quot;Forgot password?\&quot; link"/>
+  <testcase time="3.07" classname="Scenario: TC02 Check Forgot password? link" name="Scenario: TC02 Check Forgot password? link"/>
+  <testcase time="0" classname="Scenario: TC03 Login with blank username &amp; password" name="Given I am on Slyde Consumer Website"/>
+  <testcase time="0" classname="Scenario: TC03 Login with blank username &amp; password" name="When I enter blank \&quot;username\&quot; and \&quot;password\&quot;"/>
+  <testcase time="0" classname="Scenario: TC03 Login with blank username &amp; password" name="Then I should be displayed with error message \&quot;There was an error with your E-Mail\/Password combination. Please try again.\&quot;"/>
+  <testcase time="2.921" classname="Scenario: TC03 Login with blank username &amp; password" name="Scenario: TC03 Login with blank username &amp; password"/>
+  <testcase time="0" classname="Scenario: TC12 Verify that user is able to change new password" name="Given I am on Slyde Consumer Website"/>
+  <testcase time="0" classname="Scenario: TC12 Verify that user is able to change new password" name="When I enter valid \&quot;username\&quot; and \&quot;password\&quot;"/>
+  <testcase time="0" classname="Scenario: TC12 Verify that user is able to change new password" name="Then I should be logged in successfully"/>
+  <testcase time="0" classname="Scenario: TC12 Verify that user is able to change new password" name="And I should be able to change my existing password to \&quot;newpassword\&quot;"/>
+  <testcase time="0" classname="Scenario: TC12 Verify that user is able to change new password" name="And I should be displayed with password conformation message \&quot;Successfully changed your password.\&quot;"/>
+  <testcase time="2.905" classname="Scenario: TC12 Verify that user is able to change new password" name="Scenario: TC12 Verify that user is able to change new password"/>
+  <testcase time="0" classname="Scenario: TC13 Verify that user receives an error when inputting incorrect current password when changing password" name="Given I am on Slyde Consumer Website"/>
+  <testcase time="0" classname="Scenario: TC13 Verify that user receives an error when inputting incorrect current password when changing password" name="When I enter valid \&quot;username\&quot; and \&quot;password\&quot;"/>
+  <testcase time="0" classname="Scenario: TC13 Verify that user receives an error when inputting incorrect current password when changing password" name="Then I should be logged in successfully"/>
+  <testcase time="0.006" classname="Scenario: TC13 Verify that user receives an error when inputting incorrect current password when changing password" name="And I should get error message \&quot;There was an error with your E-Mail\/Password combination. Please try again.\&quot; when provided with wrong current password">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(.,&apos;There was an error with your E-Mail/Password combination. Please try again.&apos;)]&quot;}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;Srikanth-Vejendlas-MacBook-Pro.local&apos;, ip: &apos;192.168.31.99&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.2&apos;, java.version: &apos;1.6.0_65&apos;
+Session ID: 64ac8fe5-9b27-924b-9b95-55974686c710
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(.,&apos;There was an error with your E-Mail/Password combination. Please try again.&apos;)]&quot;}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;Srikanth-Vejendlas-MacBook-Pro.local&apos;, ip: &apos;192.168.31.99&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.2&apos;, java.version: &apos;1.6.0_65&apos;
+Session ID: 64ac8fe5-9b27-924b-9b95-55974686c710
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at slyde.automation.utils.WebDriverHelper.isTextPresent(WebDriverHelper.java:45)
+	at slyde.automation.cucumber.WebConsumerStepDefs.i_should_get_error_message(WebConsumerStepDefs.java:94)
+	at ✽.And I should get error message &quot;There was an error with your E-Mail/Password combination. Please try again.&quot; when provided with wrong current password(webconsumer.feature:30)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(.,&apos;There was an error with your E-Mail/Password combination. Please try again.&apos;)]&quot;}
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;Srikanth-Vejendlas-MacBook-Pro.local&apos;, ip: &apos;192.168.31.99&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.2&apos;, java.version: &apos;1.6.0_65&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/rb/z8c1404x10166_rb8kxvwq2c0000gp/T/anonymous4245876074876737610webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470:133)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/rb/z8c1404x10166_rb8kxvwq2c0000gp/T/anonymous4245876074876737610webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:407:5)
+</error>
+  </testcase>
+  <testcase time="0.007" classname="Scenario: TC13 Verify that user receives an error when inputting incorrect current password when changing password" name="Scenario: TC13 Verify that user receives an error when inputting incorrect current password when changing password">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(.,&apos;There was an error with your E-Mail/Password combination. Please try again.&apos;)]&quot;}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;Srikanth-Vejendlas-MacBook-Pro.local&apos;, ip: &apos;192.168.31.99&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.2&apos;, java.version: &apos;1.6.0_65&apos;
+Session ID: 64ac8fe5-9b27-924b-9b95-55974686c710
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(.,&apos;There was an error with your E-Mail/Password combination. Please try again.&apos;)]&quot;}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;Srikanth-Vejendlas-MacBook-Pro.local&apos;, ip: &apos;192.168.31.99&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.2&apos;, java.version: &apos;1.6.0_65&apos;
+Session ID: 64ac8fe5-9b27-924b-9b95-55974686c710
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at slyde.automation.utils.WebDriverHelper.isTextPresent(WebDriverHelper.java:45)
+	at slyde.automation.cucumber.WebConsumerStepDefs.i_should_get_error_message(WebConsumerStepDefs.java:94)
+	at ✽.And I should get error message &quot;There was an error with your E-Mail/Password combination. Please try again.&quot; when provided with wrong current password(webconsumer.feature:30)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(.,&apos;There was an error with your E-Mail/Password combination. Please try again.&apos;)]&quot;}
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;Srikanth-Vejendlas-MacBook-Pro.local&apos;, ip: &apos;192.168.31.99&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.2&apos;, java.version: &apos;1.6.0_65&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/rb/z8c1404x10166_rb8kxvwq2c0000gp/T/anonymous4245876074876737610webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470:133)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/rb/z8c1404x10166_rb8kxvwq2c0000gp/T/anonymous4245876074876737610webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:407:5)
+</error>
+  </testcase>
+</testsuite>

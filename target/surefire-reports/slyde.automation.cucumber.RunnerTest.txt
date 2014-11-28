@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+Test set: slyde.automation.cucumber.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 76.123 sec <<< FAILURE!
+And I should get error message \"There was an error with your E-Mail\/Password combination. Please try again.\" when provided with wrong current password(Scenario: TC13 Verify that user receives an error when inputting incorrect current password when changing password)  Time elapsed: 0.006 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(.,'There was an error with your E-Mail/Password combination. Please try again.')]"}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'Srikanth-Vejendlas-MacBook-Pro.local', ip: '192.168.31.99', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.6.0_65'
+Session ID: 64ac8fe5-9b27-924b-9b95-55974686c710
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at slyde.automation.utils.WebDriverHelper.isTextPresent(WebDriverHelper.java:45)
+	at slyde.automation.cucumber.WebConsumerStepDefs.i_should_get_error_message(WebConsumerStepDefs.java:94)
+	at ?.And I should get error message "There was an error with your E-Mail/Password combination. Please try again." when provided with wrong current password(webconsumer.feature:30)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":"//*[contains(.,'There was an error with your E-Mail/Password combination. Please try again.')]"}
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'Srikanth-Vejendlas-MacBook-Pro.local', ip: '192.168.31.99', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/rb/z8c1404x10166_rb8kxvwq2c0000gp/T/anonymous4245876074876737610webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470:133)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/rb/z8c1404x10166_rb8kxvwq2c0000gp/T/anonymous4245876074876737610webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:407:5)
+Scenario: TC13 Verify that user receives an error when inputting incorrect current password when changing password  Time elapsed: 0.007 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(.,'There was an error with your E-Mail/Password combination. Please try again.')]"}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'Srikanth-Vejendlas-MacBook-Pro.local', ip: '192.168.31.99', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.6.0_65'
+Session ID: 64ac8fe5-9b27-924b-9b95-55974686c710
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at slyde.automation.utils.WebDriverHelper.isTextPresent(WebDriverHelper.java:45)
+	at slyde.automation.cucumber.WebConsumerStepDefs.i_should_get_error_message(WebConsumerStepDefs.java:94)
+	at ?.And I should get error message "There was an error with your E-Mail/Password combination. Please try again." when provided with wrong current password(webconsumer.feature:30)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":"//*[contains(.,'There was an error with your E-Mail/Password combination. Please try again.')]"}
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'Srikanth-Vejendlas-MacBook-Pro.local', ip: '192.168.31.99', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/rb/z8c1404x10166_rb8kxvwq2c0000gp/T/anonymous4245876074876737610webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470:133)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/rb/z8c1404x10166_rb8kxvwq2c0000gp/T/anonymous4245876074876737610webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:407:5)
